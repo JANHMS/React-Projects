@@ -1,12 +1,16 @@
 import React,{Component} from 'react';
 import Game from './Game';
-import Demo from './Demo'
+import Demo from './Demo';
 import './App.css';
-import Rando from './Rando'
+import Rando from './Rando';
+import Button from './Button';
+import Brokenclick from './Brokenclick'
+import Clicker from './Clicker'
+
 class App extends Component{
   render(){
     return <div className='App'>
-      <Rando maxNum={7}/>
+      <Clicker/>
       </div>
   }
 }
