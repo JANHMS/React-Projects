@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import "./Cell.css"
+import React, {Component} from 'react';
+import "./Cell.css";
 
 
 /** A single cell on the board.
@@ -36,4 +36,4 @@ class Cell extends Component {
 }
 
 
-export default Cell
+export default Cell;
